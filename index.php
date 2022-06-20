@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <div class="logo">
-            <img src="img/logo.png" alt="Orel & Reshka - Play now!">
+            <!-- <img src="img/logo.png" alt="Orel & Reshka - Play now!"> -->
         </div>
         <div class="content">
             <H1>Orel & Reshka</H1>
