@@ -15,29 +15,27 @@
 
 .game {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 100px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 4px 4px 20px rgba(36,35,37,0.1);
 }
 
-.logo-block {
+.block-left {
     text-align: center;
     padding: 223px 79px 299px 80px;
-    /* width: 460px;
-    height: 690px; */
     background-color: #2c59be;
     background-image: url(/img/pattern.jpg);
 }
 
-.content {
+.block-right {
     margin: 0;
-    padding: 59px 93px 0 93px;
+    padding: 59px 60px 0 60px;
     background-color: #fff;
 }
 
-.content p:first-child {
+.block-right p:first-child {
     margin: 0;
     font-size: 26px;
     color: #242325;
@@ -45,11 +43,31 @@
     text-align: center;
 }
 
-.content p + p {
+.block-right p + p {
     margin: 9px 0 14px;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 26px;
     color: #96939b;
     font-weight: 300;
     text-align: center;
+}
+
+.label {
+    display: block;
+    margin: 33px 0 12px 0;
+    font-size: 14px;
+    color: #96939b;
+    font-weight: 300;
+}
+
+.input-text {
+    box-sizing: border-box;
+    padding: 14px 15px 16px 15px;
+    width: 100%;
+    font-size: 14px;
+    color: #242325;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #fffcff;
+    border: 2px solid #f2f2f4;
 }
