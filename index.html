@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orel & Reshka - The Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+    <div class="wrapper">
+        <div class="game">
+            <div class="logo-block">
+                <img src="img/logo.png" alt="Orel & Reshka - Play now!">
+            </div>
+            <div class="content">
+                <p>Hello, Player!</p>
+                <p>Today we will play a game. Choose your 
+                    opponent and let us begin!</p>
+                <form action="index.php" method="post">
+                    <label for="name">Enter your name</label>
+                    <p><input type="text" id="name"></p>
+                    <p>
+                        <p>
+                            <label for="">Your avatar</label>
+                        </p>
+                        <label for="">
+                            <input type="radio" name="difficulty" value="easy"> Easy
+                        </label>
+                        <label for="">
+                            <input type="radio" name="difficulty" value="medium" checked> Medium
+                        </label>
+                        <label for="">
+                            <input type="radio" name="difficulty" value="hard"> Hard
+                        </label>
+                    </p>
+                    <p>
+                        <p>
+                            <label for="">Your Opponent</label>
+                        </p>
+                        <label for="">
+                            <input type="radio" name="difficulty" value="easy">Oleg
+                        </label>
+                        <label for="">
+                            <input type="radio" name="difficulty" value="medium" checked>John
+                        </label>
+                        <label for="">
+                            <input type="radio" name="difficulty" value="hard">Gregor
+                        </label>
+                    </p>
+                    <p>
+                        <input type="submit" name="submit" value="Let us begin!">
+                        <!-- <label>
+                            <button type="submit" name="select" value="1">Orel</button>
+                        </label>
+                        <label>
+                            <button type="submit" name="select" value="2">Reshka</button>
+                        </label> -->
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
